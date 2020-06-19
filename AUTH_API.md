@@ -6,7 +6,7 @@
 { "Uuid": "",
   "Username" : "",
   "Password" : "",
-  "ClientID" : "",
+  "ClientIdentifier" : "",
 }
 ```
 #### Response 200
@@ -14,7 +14,7 @@
 {
   "Username" : "Override",
   "Password" : "Override",
-  "ClientID" : "Override",
+  "ClientIdentifier" : "Override",
 }
 ```
 #### Response Error
@@ -26,7 +26,7 @@ The mqtt connection is aborted...
  { "Uuid": "",
    "Username" : "",
    "Password" : "",
-   "ClientID" : "",
+   "ClientIdentifier" : "",
    "Topic" : ""
 }
 ```
@@ -45,16 +45,16 @@ The subscription is cleanly rejected
 { "Uuid": "",
    "Username" : "",
    "Password" : "",
-   "ClientID" : "",
+   "ClientIdentifier" : "",
    "Topic" : "",
-   "Message": ""
+   "Payload": ""
 }
 ```
 #### Response
 ```json
 {
    "Topic" : "Override",
-   "Message": "Override"
+   "Payload": "Override"
 }
 ```
 #### Response Error

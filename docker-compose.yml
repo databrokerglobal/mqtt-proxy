@@ -23,7 +23,8 @@ services:
       MQTT_BROKER_PASSWORD: guest
 
       #AUTH_URL: http://policy:3000/mqtt
-      AUTH_URL: https://policy:3001/mqtt
+      #AUTH_URL: https://policy:3001/mqtt
+      AUTH_URL: http://161.35.212.38:8085/mqtt
       AUTH_CA_FILE: "./certs/policy.pem"
     tty: true
     ports:
